@@ -18,8 +18,8 @@
 export default {
     props: {
         goods: {
-        type: Array,
-        required: true
+            type: Array,
+            required: true
         }
     }
 }

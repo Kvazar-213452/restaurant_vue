@@ -25,10 +25,10 @@
       </label>
       <!-- Menu -->
       <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#careers">Careers</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li @click="scrollToSection('Pizza')"><span>Pizza</span></li>
+        <li @click="scrollToSection('Sushi')"><span>Sushi</span></li>
+        <li @click="scrollToSection('Hot menu')"><span>Hot menu</span></li>
+        <li @click="scrollToSection('Drinks')"><span>Drinks</span></li>
       </ul>
     </nav>
   </header>
@@ -36,8 +36,15 @@
 
 <script>
 export default {
-  mounted() {
-    
+  methods: {
+    scrollToSection(id) {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        console.warn(`Element with id "${id}" not found.`);
+      }
+    },
   },
 };
 </script>
@@ -59,8 +66,9 @@ export default {
   z-index: 3;
 }
 
-.header a {
+.header span {
   color: var(--color-text);
+  cursor: pointer;
 }
 
 .header .logo {
@@ -79,7 +87,7 @@ export default {
   background-color: var(--color-bg);
 }
 
-.header li a {
+.header li span {
   display: block;
   padding: 20px 20px;
   border-right: 2px solid var(--color-bg2);
@@ -91,7 +99,7 @@ export default {
   border-left: 2px solid var(--color-bg2)
 }
 
-.header li a:hover,
+.header li span:hover,
 .header .menu-btn:hover {
   opacity: 0.5;
 }
@@ -174,7 +182,7 @@ export default {
   .header li {
     float: left;
   }
-  .header li a {
+  .header li span {
     padding: 20px 30px;
   }
   .header .menu {

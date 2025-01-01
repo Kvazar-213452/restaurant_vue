@@ -10,7 +10,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    font-family: Helvetica, sans-serif;
+    font-family: Nunito, sans-serif !important;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,7 +24,12 @@
 a { text-decoration: none; }
 ul { list-style: none; }
 
-.logo {font-family: 'Turret Road';}
+.logo {
+    position: relative;
+    top: 7px;
+    font-family: 'Turret Road';
+    color: #ffffff;
+}
 
 .goods {margin-bottom: 50px;}
 
@@ -111,4 +116,55 @@ ul { list-style: none; }
     width: auto;
     padding: 2px;
     border-bottom: solid 2px #000000;
+}
+
+.main_sect {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #474747;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dest_main {
+    font-size: 30px;
+    color: #ffffff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 0 20px;
+}
+
+.desc_unix {
+    font-size: 23px;
+    color: #ffffff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 0 20px;
+}
+
+/* media */
+/* media */
+/* media */
+
+@media (max-width: 768px) {
+    .dest_main {
+        font-size: 24px;
+    }
+    .desc_unix {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dest_main {
+        font-size: 18px;
+    }
+    .desc_unix {
+        font-size: 16px;
+    }
 }
