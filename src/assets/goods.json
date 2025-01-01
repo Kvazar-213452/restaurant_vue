@@ -1,0 +1,41 @@
+{
+    "Pizza": [
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"],
+        ["/images/polo.png", "Meat boom", "Creamy sauce, chicken fillet, tomato, corn, mozzarella", "5.6$", "30sm | 223g"]
+
+    ],
+    "Sushi": [
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"],
+        ["/images/fila_cheddar.png", "Baked with pear", "Rice, nori, fillet, salmon, pear, unagi", "4.2$", "8 pieces || 250g"]
+    ],
+    "Hot menu": [
+        ["/images/frenchfries.png", "French fries", "Potato", "3.2$", "150g"],
+        ["/images/frenchfries.png", "French fries", "Potato", "3.2$", "150g"],
+        ["/images/frenchfries.png", "French fries", "Potato", "3.2$", "150g"],
+        ["/images/frenchfries.png", "French fries", "Potato", "3.2$", "150g"],
+        ["/images/frenchfries.png", "French fries", "Potato", "3.2$", "150g"]
+    ],
+    "Drinks": [
+        ["/images/cola.png", "Coca Cola", "Potato", "2.2$", "0.75l | 1.25l | 1.75l"],
+        ["/images/cola.png", "Coca Cola", "Potato", "2.2$", "0.75l | 1.25l | 1.75l"],
+        ["/images/cola.png", "Coca Cola", "Potato", "2.2$", "0.75l | 1.25l | 1.75l"]
+    ]
+}

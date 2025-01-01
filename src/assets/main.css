@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+    --color_red: #f05a5a;
+}
 
 .main {
     height: 100%;
     width: 100%;
     position: relative;
     font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 * {
@@ -16,6 +24,91 @@
 a { text-decoration: none; }
 ul { list-style: none; }
 
-.logo {
-    font-family: 'Turret Road';
+.logo {font-family: 'Turret Road';}
+
+.goods {margin-bottom: 50px;}
+
+.goods_item {
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 450px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_goods {
+    height: 230px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 120px;
+    padding: 20px;
+}
+
+.unix {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-family: Nunito, sans-serif !important;
+}
+
+.name_key {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: Nunito, sans-serif;
+    left: -7px;
+}
+
+.btn_goods {
+    border: none;
+    border-radius: 7px;
+    background-color: var(--color_red);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    transition: all .3s;
+    font-size: 15.5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_goods:hover {opacity: .5;}
+
+.name_goods {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.inc_goods {
+    position: relative;
+    text-align: center;
+}
+
+.cost_goods {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.info_goods {
+    position: relative;
+    width: auto;
+    padding: 2px;
+    border-bottom: solid 2px #000000;
 }

@@ -50,8 +50,14 @@
 </template>
 
 <style>
-footer { 
-    background-color: #111111; 
+footer {
+    background-color: #111111;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    margin-top: auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -76,7 +82,7 @@ footer {
 }
 
 .up-section { border-bottom: 1px solid #545562; }
-.up-section ul li a:hover, .down-section ul li a:hover { color: #9A9FF6; }
+.up-section ul li a:hover, .down-section ul li a:hover { color: #ffffff; }
 .social-icons { display: flex; }
 
 .up-section ul, 
@@ -102,21 +108,21 @@ footer {
 }
 
 .up-section h1, .down-section h1 { 
-    color: #9697A0; 
+    color: #ffffff; 
     font-size: 20px; 
     font-family: 'Montserrat'; 
 }
 
 .social-icons a { 
-width: 35px;
-height: 35px;
-margin: 0 5px;
-background-color: #636363;
-box-shadow: 2px 2px 12px rgba(0, 0, 0, .1);
-display: flex;
-justify-content: center;
-align-items: center;
-transition: all ease .5s;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    background-color: #636363;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .5s;
 }
 
 .social-icons a:hover { opacity: 0.5; }
@@ -149,7 +155,6 @@ transition: all ease .5s;
 }
 
 @media(max-width: 820px) {
-    body { background-color: #C03B3D; }
     .up-section ul h1, .down-section ul h1 { font-size: 25px; }
 
     .up-section, 
