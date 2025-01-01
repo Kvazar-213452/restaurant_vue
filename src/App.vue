@@ -9,9 +9,12 @@
       ⠒⠤⠄⣿⡇⢀⡲⠄⠄⠈⠙⠻⢿⣿⣿⠿⠿⠟⠛⠋⠁⣰⠇⠄⢸⣿⣿⣿ -->
 
 <template>
-  <MenuComponent :msg="unixw"/>
-  <MainComponent/>
-  <FouterComponent/>
+  <div className="main">
+    <MenuComponent :msg="unixw"/>
+    <br><br><br>
+    <MainComponent/>
+    <FouterComponent/>
+  </div>
 </template>
 
 <script>
@@ -32,10 +35,3 @@ export default {
   }
 }
 </script>
-
-<style>
-* {
-  padding: 0px;
-  margin: 0;
-}
-</style>

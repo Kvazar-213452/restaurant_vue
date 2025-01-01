@@ -15,7 +15,7 @@
       ⠀⠀⠀⠀⠀⠀⠀⠁⠈⠂⠋⠀⠈⠃⠁⠀⠀⠐⠙⠂⠀⠁⠂⠀⠀⠀⠀⠀ -->
   <header class="header">
     <!-- Logo -->
-    <a href="#" class="logo">Hamburger Menu</a>
+    <a href="#" class="logo">Hamburger</a>
     <nav>
       <!-- Menu Button -->
       <input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Toggle Navigaton Menu">
@@ -45,22 +45,9 @@ export default {
 <style>
 /* Light Mode Color Scheme */
 :root {
-  --color-bg: #fff;
-  --color-bg2: #f4f4f4;
-  --color-toggle-accent: #ff7900;
-  --color-text: #333333;
-}
-
-
-
-html {
-  background-color: var(--color-bg);
-  color: var(--color-text);
-}
-
-body {
-  margin: 0;
-  font-family: Helvetica, sans-serif;
+  --color-bg: #111111;
+  --color-bg2: #111111;
+  --color-text: #ffffff;
 }
 
 /* Header */
@@ -97,6 +84,7 @@ body {
   padding: 20px 20px;
   border-right: 2px solid var(--color-bg2);
   text-decoration: none;
+  transition: all .3s;
 }
 
 .header li:first-child {
@@ -105,7 +93,7 @@ body {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: var(--color-bg2);
+  opacity: 0.5;
 }
 
 /* Nav Menu */
@@ -131,8 +119,7 @@ body {
   height: 2px;
   width: 18px;
   position: relative;
-  transition: background .2s ease-out;
-
+  transition: all .3s;
 }
   
 .header .menu-icon .navicon:before,
@@ -157,6 +144,7 @@ body {
 /* Menu Button */
 .header .menu-btn {
   display: none;
+  transition: all .3s;
 }
 
 .header .menu-btn:checked ~ .menu {
